@@ -1,3 +1,6 @@
 [submodule "marian-examples"]
 	path = marian-examples
 	url = https://github.com/marian-nmt/marian-examples.git
+[submodule "liumcvc-wmt"]
+	path = liumcvc-wmt
+	url = https://github.com/lium-lst/wmt17-mmt.git
