@@ -49,7 +49,7 @@ the submissions employ the standard neural MT (NMT) scheme enriched with another
 
 This submission evaluates ensembles of up to four different multimodal NMT models. All models use global image features obtained with the pre-trained CNN VGG19, and are either incorporated in the encoder or the decoder. They are model IMGW, in which image features are used as words in the source-language encoder; model IMGE, where image features are used to initialise the hidden states of the forward and backward encoder RNNs; and model IMGD, where the image features are used as additional signals to initialise the decoder hidden state
 
-LIUMCVC (C Laboratoire d’Informatique de l’Universite du Maine & Universitat Autonoma de Barcelona Computer Vision Center)
+** LIUMCVC (C Laboratoire d’Informatique de l’Universite du Maine & Universitat Autonoma de Barcelona Computer Vision Center)
 
 LIUMCVC experiment with two approaches: a multimodal attentive NMT with separate attention over source text and convolutional image features, and an NMT where global visual features are multiplicatively interacted with word embeddings. More specifically, each target word embedding is multiplied with global visual features in an elementwise fashion in order to visually contextualize word representations.
 
